@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useAppSelector, useAppDispatch } from "./hook";
 import { fetchTodos, addTodoAsync } from "./store/todosSlice";
 import Todo from "./components/Todo";
-import { Container, Typography, Box, TextField } from "@mui/material";
+import { Container, Box, TextField } from "@mui/material";
 
 const App: React.FC = () => {
   const [newTodo, setNewTodo] = useState("");
